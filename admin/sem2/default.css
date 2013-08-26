@@ -1,0 +1,297 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin:0;
+	background: #FFFFFF url(images/img01.gif) repeat-x;
+	font: normal small "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+
+/*Slides*/
+img.border {
+	/*border: 10px solid #38ACEC;*/
+}
+
+img.alignleft {
+	float: left;
+	margin-right: 25px;
+}
+
+
+/*close of slides*/
+
+h1, h2, h3 {
+	color: #333333;
+}
+
+h2 {
+}
+
+h3 {
+	font-size: 1em;
+}
+
+
+/* Boxed Style  (side bar)*/
+
+.boxed {
+}
+
+.boxed .title {
+	padding: 10px 20px;/*top & left */
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+
+.boxed .content {
+	padding: 15px;
+	background: url(images/img05.gif) repeat-x; /*blue bar on d right side*/
+}
+
+
+/* Post (left side content) */
+
+.post {
+}
+
+.post .title {
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+
+
+.post .story { 
+	padding: 20px 20px 0 20px;
+	background: url(images/img05.gif) repeat-x; /*blue line*/
+}
+
+/* Header */
+
+#header {
+	width: 760px;
+	height: 140px;
+	margin: 0 auto;
+}
+
+/* Header > Logo */
+
+#logo {
+	float: left;
+	position:absolute;
+	top:25px;
+	width: 250px;
+	height: 50px;
+}
+/*
+#logo h1 {
+	margin: 0;
+	padding: 60px 0 0 0;
+	font-size: 2.6em;
+	font-family : magneto;
+	font-color:#306EFF;
+}
+*/
+#logo h2 {
+	margin-top: -15px;
+	font-size: 1em;
+	text-align:right;
+}
+
+#logo a {
+	text-decoration:none;
+	color: #000000;
+}
+
+/* Header > Menu */
+
+#menu {
+	float: right; /*menu alignment*/
+}
+
+#menu ul {
+	margin: 0;
+	padding-top: 76px;
+	list-style: none;
+}
+
+#menu li {
+	display: inline; /*to display d menu in st.line*/
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 24px;
+	margin-left: 10px;
+	padding: 15px;
+	/*background: url(images/img02.gif) repeat-x;*/
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+}
+
+#menu a:hover {
+	background-image: url(images/img04.gif);
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+#menu .active a {
+	background-image: url(images/img03.gif); 
+	text-decoration: underline;
+	color: #FFFFFF; /*default color n images for home*/
+}
+
+/* slogin > smenu */
+
+#smenu {
+	float: left; /*menu alignment*/
+}
+
+#smenu ul {
+	margin: 0;
+	padding-top: 30px;
+	list-style: none;
+}
+
+
+#smenu a {
+	display: block;
+	float: left;
+	height: 24px;
+	width: 120px;
+	margin-left: 10px;
+	padding: 10px;
+	/*background: url(images/img02.gif) repeat-x;*/
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+}
+
+#smenu a:hover {
+	background-image: url(images/img04.gif);
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+#smenu .active a {
+	background-image: url(images/img03.gif); 
+	text-decoration: underline;
+	color: #FFFFFF; /*default color n images for home*/
+}
+
+
+
+
+/* Content */
+
+#content {
+	width: 760px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+/* Content > Main */
+
+#main {
+	float: left;
+	width: 520px;
+}
+#main1 { /*slogin main*/
+	float: right;
+	width: 520px;
+}
+/* Content > Main > Welcome */
+
+#welcome {
+}
+
+/* Content > Main > Example */
+
+#example {
+}
+
+/* Content > Sidebar */
+
+#sidebar {
+	float: right;
+	width: 220px;
+}
+#sidebar1 {/*slogin sidebar*/
+	float: left;
+	width: 220px;
+}
+/* Content > Sidebar > Login */
+
+#login {
+}
+
+#login form {
+}
+
+#login fieldset {
+	border: none;
+}
+
+#login legend {
+	display: none;
+}
+
+#login label {
+	display: block;
+}
+
+#login input,textarea {
+	border-top-right-radius:0.6em;
+	border-bottom-left-radius:0.6em;
+	margin-top:5px;
+	margin-bottom: 5px;
+	padding: 2px 2px;/*size of text box*/
+	border: 1px solid #4c84f7;
+	font: normal small "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+
+#inputtext1, #inputtext2 {
+	width: 98%;
+}
+
+#inputsubmit1 {
+	margin: 0;
+	padding: 0;
+	background: url(images/img05.gif) repeat-x;
+}
+
+
+/* Content > Sidebar > Updates*/
+
+/* Footer */
+
+#footer {
+	clear: both;
+	width: 760px;
+	height: 80px;
+	margin: 0 auto;
+	padding: 30px 50px;
+	background: url(images/img07.gif) no-repeat center top;
+}
+
+#footer p {
+	margin: 0;
+	text-align: center;
+	line-height: normal;
+	font-size: x-small;
+}
+
+#footer a {
+	text-decoration: underline;
+	color: #666666;
+}
+
+#footer a:hover {
+	text-decoration: none;
+}
